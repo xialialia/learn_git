@@ -7,7 +7,7 @@ from datetime import date
 #     m.save()
 #     print(m.name)
 person = Person.select()
-for m in person:
-    # m.birthday = m.birthday + date(1960-10-6)
+# for m in person:
+#     m.birthday = m.birthday + date(1960-10-6)
     # m.save()
-    print(m.birthday)
+    # print(m.birthday)
