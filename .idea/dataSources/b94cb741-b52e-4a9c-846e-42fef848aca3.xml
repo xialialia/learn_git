@@ -35,7 +35,6 @@
     </column>
     <index id="14" parent="6" name="category_parent_id">
       <ColNames>parent_id</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="15" parent="6">
       <ColNames>id</ColNames>
@@ -68,7 +67,6 @@
     </column>
     <index id="21" parent="7" name="message_user_id">
       <ColNames>user_id</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="22" parent="7">
       <ColNames>id</ColNames>
@@ -97,16 +95,13 @@
     <index id="27" parent="8" name="relationship_from_user_id_to_user_id">
       <ColNames>from_user_id
 to_user_id</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="28" parent="8" name="relationship_from_user_id">
       <ColNames>from_user_id</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="29" parent="8" name="relationship_to_user_id">
       <ColNames>to_user_id</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="30" parent="8">
       <ColNames>id</ColNames>
@@ -164,7 +159,6 @@ to_user_id</ColNames>
     </column>
     <index id="42" parent="10" name="user_username">
       <ColNames>username</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="43" parent="10">
