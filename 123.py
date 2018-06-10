@@ -3,10 +3,9 @@
 # from category import *
 from datatimes import *
 
+import datetime
 
-from datetime import datetime,timedelta
-
-now = datetime.now()
+now = datetime.datetime.now()
 print(now)
 #你拿到的数据是一条数据还是多条数据，如果是多条数据就要循环，首先拿到一条数据（实例对象），然后再用.获得属性
 # a = Message.select().where(Message.id==1).get()
@@ -60,9 +59,12 @@ a=User.select().where(User.id == 2).get()
 print(1111111)
 a_time = a.join_date
 print(a_time)
-m=(now-a_time).days
+# m=(now-a_time).days
 b = User.select().where(User.join_date > a_time)
 for m in b:
-    m.join_date += timedelta(m)
-    m.save
+    m.join_date = datetime.timedelta((now - a_time).days) + m.join_date
+    m.save()
+    print(m.join_date)
+
+
 

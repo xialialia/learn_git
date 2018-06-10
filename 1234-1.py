@@ -38,13 +38,13 @@ a = User.select().where(User.password==123)
 b = User.select().where(User.password!=123).order_by(User.id.desc())
 
 
-for m in a:
-    c.append(m)
-
-for n in b:
-    c.append(n)
-
-print(c)
+# for m in a:
+#     c.append(m)
+#
+# for n in b:
+#     c.append(n)
+#
+# print(c)
 
 
 
