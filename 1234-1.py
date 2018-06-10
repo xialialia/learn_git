@@ -34,7 +34,7 @@ from tweet import *
 # a= User.select().group_by(User.id).having(User.password == 123)
 # b= User.select().group_by(User.id).having(User.password != 123)
 c= []
-a = User.select().where(User.password==123)
+a = User.select().where(User.password !=123)
 b = User.select().where(User.password!=123).order_by(User.id.desc())
 
 
