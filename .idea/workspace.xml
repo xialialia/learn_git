@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b4c54-9405-486f-b694-390120f4245d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6aff4a7e-1ca2-430d-a627-aad79b11d55b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6aff4a7e-1ca2-430d-a627-aad79b11d55b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b94cb741-b52e-4a9c-846e-42fef848aca3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b94cb741-b52e-4a9c-846e-42fef848aca3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be9d9f4e-9f40-4ae8-8b65-5adc807edfac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/be9d9f4e-9f40-4ae8-8b65-5adc807edfac.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbdecea1-318c-4c90-b885-b50735a33e41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dbdecea1-318c-4c90-b885-b50735a33e41.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1234-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1234-1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/1234-1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="452">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
               <folding>
                 <element signature="e#29#44#0" expanded="true" />
               </folding>
@@ -758,7 +753,7 @@
     <entry file="file://$PROJECT_DIR$/1234-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
           <folding>
             <element signature="e#29#44#0" expanded="true" />
           </folding>

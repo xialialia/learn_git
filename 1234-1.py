@@ -47,7 +47,7 @@ b = User.select().where(User.password!=123).order_by(User.id.desc())
 # print(c)
 
 a=2
-
+b=2
 
 
 
