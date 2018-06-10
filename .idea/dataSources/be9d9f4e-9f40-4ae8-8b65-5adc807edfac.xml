@@ -59,7 +59,6 @@
     </column>
     <index id="19" parent="7" name="team_user_id">
       <ColNames>user_id</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="20" parent="7">
       <ColNames>id</ColNames>
@@ -92,7 +91,6 @@
     </column>
     <index id="26" parent="8" name="teamprofile_user_id">
       <ColNames>user_id</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="27" parent="8">
       <ColNames>id</ColNames>

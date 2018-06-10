@@ -62,7 +62,6 @@
     </column>
     <index id="18" parent="7" name="pet_owner_id">
       <ColNames>owner_id</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="19" parent="7">
       <ColNames>id</ColNames>
