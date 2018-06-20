@@ -28,5 +28,20 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <introspection-schemas>*:main</introspection-schemas>
     </data-source>
+    <data-source name="peewee" uuid="b7677421-171a-4ddb-86b3-7eb6f79cd417">
+      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
+    <data-source name="peewee [2]" uuid="5f74b719-90f7-418a-811f-9d792f1bce7a">
+      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
+    <data-source name="tweet_model" uuid="acaed498-dfe8-4478-b4da-0fc78ed7af56">
+      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
   </component>
 </project>
