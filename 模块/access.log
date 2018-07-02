@@ -1,0 +1,9 @@
+2018-06-25 09:48:37 AM - root - DEBUG -loggin_module:  调试debug
+2018-06-25 09:48:37 AM - root - INFO -loggin_module:  消息info
+2018-06-25 09:48:37 AM - root - WARNING -loggin_module:  警告warn
+2018-06-25 09:48:37 AM - root - ERROR -loggin_module:  错误error
+2018-06-25 09:48:37 AM - root - CRITICAL -loggin_module:  严重critical
+2018-06-25 09:50:25 AM - root - INFO -loggin_module:  消息info
+2018-06-25 09:50:25 AM - root - WARNING -loggin_module:  警告warn
+2018-06-25 09:50:25 AM - root - ERROR -loggin_module:  错误error
+2018-06-25 09:50:25 AM - root - CRITICAL -loggin_module:  严重critical

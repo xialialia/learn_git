@@ -1,4 +1,4 @@
-from PhotoTag_modul import *
+from peewee模型.PhotoTag_modul import *
 
 # find tags that have at least 3 photos associated with them,多对多
 query = (Tag.select().join(PhotoTag).join(Photo).

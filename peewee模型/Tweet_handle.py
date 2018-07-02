@@ -1,4 +1,4 @@
-from Tweet_model import *
+from .Tweet_model import *
 # 获取一条数据使用get()
 a=Tweet.select().join(User).where(User.username == 'xiatian').order_by(Tweet.created_date.desc()).get()
 # print(a.id)
@@ -51,8 +51,8 @@ qur = User.select().order_by(fn.Random())
 #     db.execute_sql('REPLACE INTO user (username) VALUES (?)', (name,))
 
 # .contains 包含某写字符串
-# query = Tweet.select(Tweet.message).where(Tweet.message.contains('ic')).scalar()
-# print(query)
+query = Tweet.select(Tweet.message).where(Tweet.message.contains('ic')).scalar()
+print(query)
 
 # ～表示否定
 strangers = User.select().where(~(User.username << ['xialiang', 'lifangyuan'])).scalar()

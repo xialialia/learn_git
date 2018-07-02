@@ -1,4 +1,4 @@
-from jointojoin import *
+from peewee模型.jointojoin import *
 team_objs = User.select(Team, User, Teamprofile). \
             join(Team, on=(User.id == Team.user)). \
             join(Teamprofile,on=(Team.id == Teamprofile.user)).\
