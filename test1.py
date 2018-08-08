@@ -1,3 +1,4 @@
+
 # sya.argv的用法
 # import sys
 # a = sys.argv[1:]
@@ -9,7 +10,7 @@
 # print(a.__eq__('s.b,2b'))
 
 
-a='211113111'
+# a='211113111'
 # print(a.center(9,"*"))
 # print(a.count('1',1,3))
 # print(a.endswith('1'))
@@ -160,9 +161,65 @@ nums=[1,2,3,-10,100,30,200,21,9,-7]
 # cheap=heapq.nsmallest(3,portfolio,key=lambda x:x['price'])
 # print(cheap)
 
-print(heapq.heappop(nums))
-print(heapq.heappop(nums))
-print(heapq.heappop(nums))
-print(heapq.heappop(nums))
+# print(heapq.heappop(nums))
+# print(heapq.heappop(nums))
+# print(heapq.heappop(nums))
+# print(heapq.heappop(nums))
+# import re
+# rr = re.compile(r"&lt;@([a-zA-Z0-9]{16}|0)\|.+?&gt;")
+# ids = rr.findall('&lt;@e808728aa38f53e4|13500001111&gt;&lt;@5cf9b9d04d28ee36|xialiang&gt;&lt;@9d73f3fea6305b1f|13400001111咕咕&gt;')
+# print(set(ids))
+# if 'e808728aa38f53e4' in set(ids):
+#     print(1)
+# a={"1":2,"s":3}
+# print(list(a))
+# task_id = False
+# task_id = 1
+# if task_id:
+#     print(1)
 
+# def foo(m=1):
+#     print(m)
+#
+# foo(m=2)
 
+# import requests,time
+#
+# r = requests.get('http://task.yunwoke.com/api/projects/task/search?ts=1531729777907&slug=tuan-dui-si-you-xiang-mu-ce-shi-cheng-yuan-shi-shi-xian-shi&ftype=&subject=&status=normal&executor_id=&creator_id=&tag_id='）
+# print(r.content)
+# to_users=[1,3,4]   # 所有的排序
+# to_user=[3]      # 筛选后的
+#
+# for m in to_users:
+#    if not m in to_user:
+#       to_users.remove(m)
+# print(to_users)
+# teams=[1,2,3]
+# teams.insert(0, 4)
+# print(teams)
+# m=[1,2,3]
+# for n in m:
+#     print(n)
+#     if n == 1:
+#        print('a')
+# a='{:.0%}'.format(42/50)
+# print(a)
+# no_meaning = False
+# def foo(x):
+#     if x=="kanban":
+#         no_meaning = True
+#         print(no_meaning)
+# foo("kanban")
+# x=''
+# y=''
+# def foo(x,y):
+#     return x,y
+#
+# if True:
+#    foo(1,2)
+#    return x, y
+# a="abc"
+# len(a)=3
+import test2
+
+print(1)
